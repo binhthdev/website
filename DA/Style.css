@@ -1,0 +1,106 @@
+@media (min-width:0px ) and (max-width:321px){
+    header{
+        height: 165px;
+    }
+    header a img{
+        position: absolute;
+        height: 58px;
+        width: 58px;
+    }
+    header ul{
+        margin-top: 10px;
+        list-style: none;
+        margin-left: -35px;
+    }
+    header ul li{
+        float: left;
+        margin-right: 5px;
+        padding-right: 5px;
+        margin-left: 0px;
+        
+    }
+    header ul li a{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    header .welcome span{
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        margin-right: 4px;
+      
+    }
+    header .welcome p{
+        padding-top: 70px;
+        margin-left: 40px;
+    }
+    header .button{
+        float: left;
+        margin-right: 0px;
+        margin-left: 55px;
+        height: 15px;
+        
+     
+        
+       
+    }
+    header .button input{
+        width: 60px;
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-left: 105px;
+        height: 15px;
+        font-size: 7px;
+    }
+    header .button input::placeholder{
+        padding-left: 3px;
+     
+    }
+    header .button button{
+        width: 60px;
+        font-weight: 400; 
+        font-size: 8px;
+        
+    }
+    header .welcome .login button{
+        margin-right: 7px;
+        margin-top: 10px;
+        border-radius: 30px;
+        width: 65px;
+        outline: none;
+        font-weight:400 ;
+        height: 17px;
+        font-size: 10px;
+    }   
+     .mySlides  img{
+       height: 1px;
+    
+    }
+    .vechungtoi{
+        color: brown;
+        font-size: 15px;
+    }
+    .container .content .image  img{
+        height: 150px;
+        margin-left: 5px;
+        width: 150px;
+        position: absolute;
+        border-radius: 5px;
+        
+    }
+       .content-text {
+        float: right;
+        height: 100%; 
+        font-size: 2px;
+        font-family: 'Roboto Slab', serif;
+        margin-left: 50%;
+        margin-right: 80px;
+     
+    }
+    .sumenh {
+        margin: auto;
+        font-size: 8px;
+    }
+
+
+}
+

@@ -1,0 +1,412 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    background-color: #336666;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+header a img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+header ul{
+    margin-top: 50px;
+    list-style: none;
+}
+header ul li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 40px;
+    margin-left: 25px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+header .welcome form{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 25px;
+   
+}
+header .welcome .login button{
+    background-color: rgb(174, 56, 56);
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: azure;
+    width: 100px;
+    outline: none;
+    font-weight: 550;
+    box-shadow: 2px 2px 1px 1px white;
+}
+header .welcome .login button:hover{
+   background-color: orangered;
+   color: white;
+   border: 1px solid white;
+   border-radius: 30px;
+ 
+}
+header .welcome span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #CC9900;
+    margin-right: 4px;
+}
+header .welcome p{
+    padding-top: 60px;
+    margin-left: 400px;
+}
+header .button{
+    float: right;
+    margin-right: 50px;
+
+}
+header .button input{
+    width: 150px;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+}
+header .button input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+header .button button{
+    background-color: rgb(174, 56, 56);
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    color: white;
+    width: 80px;
+    font-weight: 550;
+    box-shadow: 2px 2px 1px 1px white;
+}
+header .button button:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+ header.button form input {
+     padding-top:0px;
+     background-color: #336666;
+     font-weight: bold;
+   
+ }
+ header .button form {
+     padding-top:0px;
+     float: left;
+     max-height: 300px;
+ }
+ header .button form input{
+    background-color: #336666;
+    width: 150px;
+ }
+header .welcome .login {
+    float: right;
+    
+}
+.container{
+ display: flex;
+
+}
+.image img{
+    height: 350px;
+    width: 450px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+.content {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.content span{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+}
+.content button{
+    background-color: tomato;
+    box-shadow: 2px 2px 1px 1px chocolate;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.content button:hover{
+    background-color:chocolate;
+}
+*{
+  
+    box-sizing: border-box;
+}
+.footer{
+    background-color:#717171;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+.footer-col h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.footer-col ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col ul a i{
+    margin-right: 15px;
+    color: black;
+}
+.bottom{
+    background-color: black;
+    padding-left: 490px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  
+}body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #336666;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+header a img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+header ul{
+    margin-top: 50px;
+    list-style: none;
+}
+header ul li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 40px;
+    margin-left: 25px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+header .welcome form{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 25px;
+   
+}
+header .welcome .login button{
+    background-color: rgb(174, 56, 56);
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: azure;
+    width: 100px;
+    outline: none;
+    font-weight: 550;
+    box-shadow: 2px 2px 1px 1px white;
+}
+header .welcome .login button:hover{
+   background-color: orangered;
+   color: white;
+   border: 1px solid white;
+   border-radius: 30px;
+ 
+}
+header .welcome span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #CC9900;
+    margin-right: 4px;
+}
+header .welcome p{
+    padding-top: 60px;
+    margin-left: 400px;
+}
+header .button{
+    float: right;
+    margin-right: 50px;
+
+}
+header .button input{
+    width: 150px;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+}
+header .button input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+header .button button{
+    background-color: rgb(174, 56, 56);
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    color: white;
+    width: 80px;
+    font-weight: 550;
+    box-shadow: 2px 2px 1px 1px white;
+}
+header .button button:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+ header.button form input {
+     padding-top:0px;
+     background-color: #336666;
+     font-weight: bold;
+   
+ }
+ header .button form {
+     padding-top:0px;
+     float: left;
+     max-height: 300px;
+ }
+ header .button form input{
+    background-color: #336666;
+    width: 150px;
+ }
+header .welcome .login {
+    float: right;
+    
+}
+.container{
+ display: flex;
+ background-image: url(image/giay.webp);
+
+}
+.image img{
+    height: 350px;
+    width: 450px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+.content {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.content span{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+}
+.content button{
+    background-color: tomato;
+    box-shadow: 2px 2px 1px 1px chocolate;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.content button:hover{
+    background-color:chocolate;
+}
+*{
+  
+    box-sizing: border-box;
+}
+.footer{
+    background-color:#717171;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+.footer-col h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.footer-col ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: #ffffff;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col ul a i{
+    margin-right: 15px;
+    color: black;
+}
+.bottom{
+    background-color: black;
+    padding-left: 490px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  
+}

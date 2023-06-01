@@ -1,0 +1,330 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color:rgb(230, 225, 225);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+header{
+    background-color: #336666;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-left: 2px;
+    margin-right: -7px;
+    margin-top: -14px;
+}
+header a img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+header ul{
+    margin-top: 50px;
+    list-style: none;
+}
+header ul li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 40px;
+    margin-left: 25px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+header .welcome span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #CC9900;
+    margin-right: 4px;
+  
+}
+header .welcome p{
+    padding-top: 60px;
+    margin-left: 430px;
+}
+header .button{
+    float: right;
+    margin-right: 50px;
+
+}
+header .button input{
+    width: 150px;
+    border-radius: 25px;
+    margin-right: 10px;
+
+
+
+}
+header .button input::placeholder{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 10px;
+}
+header .button button{
+    background-color:rgb(174, 56, 56) ;
+    border-radius: 15px;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
+    color: white;
+    width: 80px;
+    font-weight: 550; 
+    box-shadow: 2px 2px 1px 1px white;  
+}
+header .button button:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+ header.button form input {
+     padding-top:0px;
+     background-color: #336666;
+     font-weight: bold;
+  
+ }
+ header .button form {
+     padding-top:0px;
+     float: left;
+     max-height: 300px;
+ }
+ header .button form input{
+    background-color: #336666;
+    width: 150px;
+ }
+header .welcome .login {
+    float: right;
+
+    
+}
+header .welcome .login button{
+    background-color: rgb(174, 56, 56);
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: azure;
+    width: 100px;
+    outline: none;
+    font-weight: 550;
+    box-shadow: 2px 2px 1px 1px white;
+}
+header .welcome .login button:hover{
+   background-color:orangered;
+   color: white;
+   border: 1px solid white;
+   border-radius: 30px;
+}
+.slideshow-container{
+    border-radius: 8px;
+}
+.container .content .content-text .sumenh span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;    
+   
+}
+
+.vechungtoi{
+   text-align: center;
+   font-family:'Roboto Slab', serif;
+   font-size: 35px;
+}
+.container .content .image  img{
+ height: 350px;
+ margin-left: 50px;
+ width: 500px;
+ position: absolute;
+ border-radius: 5px;
+ 
+}
+
+.content{
+    display: flex;
+    height: 370px;
+}
+.content-text {
+    float: right;
+    height: 100%; 
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 50%;
+    margin-right: 80px;
+ 
+}
+.sumenh {
+    margin: auto;
+    font-size: 18px;
+}
+.vechungtoi{
+    color: brown;
+}
+.container .content-center h2{
+     margin-left: 500px;
+     color: brown;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -75px;
+    margin-left: 10px;
+}
+.product-list .product-item {
+    flex: 0 0 calc(100% / 3 - 15px * 2);
+    max-width: calc(100% / 3 - 15px * 2);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+.product-item-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.product-item-img:hover{
+    padding-left: 10px; 
+    
+}
+.product-item input {
+    background-color:orangered;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 100%;
+    color: white;
+    box-shadow: 2px 2px 1px 1px firebrick;
+    
+    
+}
+.product-item input:hover{
+    background-color:firebrick ;
+}
+.product-item p{
+    font-family:'Roboto Slab', serif;
+    font-weight: 550;
+}
+*{
+    
+    box-sizing: border-box;
+}
+.footer{
+    background-color:#717171;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+   margin-left: -10px;
+   margin-right: 68px;
+  
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.footer-col ul{
+    list-style: none;
+   
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+ 
+}
+.footer-col h3{
+    font-size: 18px;
+    color: white;
+    font-family:'Times Newoman', Times, serif;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.footer-col ul li a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+  
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col ul a i{
+    margin-right: 15px;
+    color: black;
+}
+.bottom{
+    background-color: black;
+    padding-left: 510px;
+    margin-right: -7px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+    
+    
+}
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
+    
+  }
+  
+  /* Ẩn các slider */
+  .mySlide {
+      display: none;
+  }
+  /* Định dạng nội dung Caption */
+
+  /* định dạng các chấm chuyển đổi các slide */
+  .dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  /* khi được hover, active đổi màu nền */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+   
+  /* Thêm hiệu ứng khi chuyển đổi các slide */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+   
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+   
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+

@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoAn</title>
+  <link rel="shortcut icon" href="image/logob.gif" type="image/x-icon">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="reponsive-trangchu.css">
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap
+" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="web">
+  <!-- Phần đầu-->
+  <header>
+    <div class="welcome">
+      <a href="Home.html"><img src="image/logob.gif" alt="Logo"></a>
+      <div class="login">
+        <a href="Dangnhap.html">
+          <button>Đăng Nhập</button>
+        </a>
+        <a href="Dangki.html">
+          <button>Đăng ký </button>
+        </a>
+      </div>
+      <p>
+        <span><b>F</b></span>
+        <span><b>R</b></span>
+        <span><b>E</b></span>
+        <span><b>S</b></span>    
+        <span><b>H&nbsp;</b></span>
+        <span><b>F</b></span>
+        <span><b>R</b></span>
+        <span><b>U</b></span>
+        <span><b>I</b></span>
+        <span><b>T</b></span>
+        <script src="js/app.js"></script>
+      </p>
+    </div>
+    <ul class="header-menu">
+      <li class="header-menu-link"><a href="Home.html">Trang chủ</a></li>
+      <li class="header-menu-link"><a href="Sanpham.html">Sản phẩm</a></li>
+      <li class="header-menu-link"><a href="Hopqua.html">Hộp quà</a></li>
+      <li class="header-menu-link"><a href="Lienhe.html">Liên hệ</a></li>
+    </ul>
+    <div class="button">
+      <input type="text" placeholder="Tìm kiếm...">
+      <button>Tìm kiếm</button>
+    </div>
+    <br>
+  </header>
+  <!-- Phần thân-->
+  <div class="slideshow-container">
+    <div class="mySlides ">
+      <img src="image/sp1.jpeg" style="width:100%; height: 500px; padding-top: 20px; margin-left: 5px;background-size: cover; ">
+    </div>
+    <div class="mySlides ">
+      <img src="image/bc5.webp" style="width:100%; height: 500px; padding-top: 20px; margin-left: 5px; background-size: cover">
+    </div>
+    <div class="mySlides ">
+      <img src="image/bc2.webp"style="width: 100%; height: 500px; padding-top: 20px; margin-left: 5px; background-size: cover">
+    </div>
+  </div>
+  <br>
+   
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+  </div>
+  <script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+   
+        slides[slideIndex].style.display = "block";  
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+        slideIndex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+          slideIndex = 0
+        }    
+        //tự động chuyển đổi slide sau 2s
+        setTimeout(showSlides, 2000);
+    }
+    //mặc định hiển thị slide đầu tiên 
+    showSlides(slideIndex = 0);
+   
+   
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  </script>
+  <h2 class="vechungtoi">Về chúng tôi</h2>
+  <div class="container">
+    <div class="content">
+          <div class="image">
+            <img src="image/hoanen3.png" alt="">
+          </div>
+          <div class="content-text">
+            <div class="sumenh">
+              <span><b>Sứ mệnh:</b> Web Trái Cây ra đời nhằm đem lại những sản phẩm tươi sạch, bổ dưỡng với một dịch vụ tận tâm, nhiều cải tiến, sáng tạo. Web Trái Cây hoạt động với sứ mệnh: khai thác tối đa nguồn dinh dưỡng từ 100% trái cây tươi, rau quả tự nhiên, nguyên chất. Mục đích mang lại chuỗi cung ứng khép kín từ nhà vườn đến khách hàng, qua những thức uống, món ăn từ trái cây tươi. Hay chỉ đơn giản từ những loại trái cây, rau củ đảm bảo chất lượng vệ sinh an toàn, không hóa chất độc hại được bán theo kilogram cung cấp đến thị trường.
+              </span>
+            </div>
+          </div>
+        </div>
+    <div class="content-center">
+      <h2>Sản phẩm bán chạy</h2>
+    </div>
+    <br>
+    <div class="product-list">
+      <div class="product-item">
+       <a href="Saurieng.html"> <img class="product-item-img" src="image/Sau.jpg" alt="Sầu riêng"></a>
+        <p class="product-item-title">Sầu Riêng</p>
+        <p class="product-item-price">Giá: 250.000₫/kg</p>
+        <a href="Saurieng.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+        <a href="Bơ.html"><img class="product-item-img" src="image/spp2.jpg" alt="Bơ"></a>
+        <p class="product-item-title">Bơ</p>
+        <p class="product-item-price">Giá: 30.000₫/kg</p>
+        <a href="Bơ.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+       <a href="Dautay.html"> <img class="product-item-img" src="image/spp3.jpg" alt="Dâu Tây"></a>
+        <p class="product-item-title">Dâu Tây</p>
+        <p class="product-item-price">Giá: 180.000₫/kg</p>
+        <a href="Dautay.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+        <a href="Hongxiem.html"><img class="product-item-img" src="image/Hong.jpg" alt="Hồng Xiêm"></a>
+        <p class="product-item-title">Hồng Xiêmn</p>
+        <p class="product-item-price">Giá: 35.000₫/kg</p>
+       <a href="Hongxiem.html"> <input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+       <a href="Quale.html"> <img class="product-item-img" src="image/spp4.jpg" alt="Quả Lê"></a>
+        <p class="product-item-title">Quả Lê</p>
+        <p class="product-item-price">Giá: 50.000₫/kg</p>
+        <a href="Quale.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+       <a href="Mit.html"> <img class="product-item-img" src="image/spp6.jpg" alt="Quả Mít"></a>
+        <p class="product-item-title"> Mít</p>
+        <p class="product-item-price">Giá: 15.000₫/kg</p>
+        <a href="Mit.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+        <a href="Quaoi.html"><img class="product-item-img" src="image/spp7.jpg" alt="Quả Ổi"></a>
+        <p class="product-item-title"> Ổi</p>
+        <p class="product-item-price">Giá: 20.000₫/kg</p>
+        <a href="Quaoi.html"><input type="submit" value="Mua ngay"></a>
+      </div>
+      <div class="product-item">
+        <a href="Xoai.html"><img class="product-item-img" src="image/spp8.jpg" alt="Xoài"></a>
+        <p class="product-item-title">Xoài</p>
+        <p class="product-item-price">Giá: 40.000₫/kg</p> 
+      <a href="Xoai.html"><input type="submit" value="Mua ngay"></a>
+    </div>
+    <div class="product-item">
+        <a href="Buoi.html"><img class="product-item-img" src="image/spp10.jpg" alt="Bưởi"></a>
+        <p class="product-item-title">Bưởi</p>
+        <p class="product-item-price">Giá: 50.000₫/kg</p>
+        <a href="Buoi.html"><input type="submit" value="Mua ngay"></a>
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp12.jpg" alt="Đào">
+        <p class="product-item-title">Đào</p>
+        <p class="product-item-price">Giá: 20.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp13.jpg" alt="Đu đủ">
+        <p class="product-item-title">Đu Đủ</p>
+        <p class="product-item-price">Giá: 12.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp14.jpg" alt="Quả Lựu">
+        <p class="product-item-title">Quả Lựu</p>
+        <p class="product-item-price">Giá: 20.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp15.jpg" alt="Quả Na">
+        <p class="product-item-title">Quả Na</p>
+        <p class="product-item-price">Giá: 70.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp16.jpg" alt="Măng Cụt">
+        <p class="product-item-title">Măng Cụt</p>
+        <p class="product-item-price">Giá: 100.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+    <div class="product-item">
+        <img class="product-item-img" src="image/spp17.jpg" alt="Quả Vải">
+        <p class="product-item-title">Quả Vải</p>
+        <p class="product-item-price">Giá: 30.000₫/kg</p>
+        <input type="submit" value="Mua ngay">
+    </div>
+
+    <!-- Phần cuối-->
+    <footer class="footer">
+        <hr>
+      <div class="container">
+        <div class="row">
+        <div class="footer-col">
+          <h3>Địa chỉ liên hệ</h3>
+          <ul>
+            <span><i class="fa fa-map-marker"></i></span>
+            <li><a href="">Địa chỉ liên hệ: Trường đại học công nghệ thông tin và truyền thông Việt-Hàn</a></li>
+            <span><i class="fa fa-phone"></i></span>
+            <li><a href="">Điện thoại :0993366001</a></li>
+            <span><i class="fa fa-envelope"></i></span>
+            <li><a href="">Email :binhth.21it@vku.udn.vn</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Truy cập nhanh</h3>
+          <ul>
+            <li><a href="Home.html">Trang chủ</a></li>
+            <li><a href="Sanpham.html">Sản phẩm</a></li>
+            <li><a href="Hopqua.html">Hộp quà</a></li>
+            <li><a href="Lienhe.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Theo chúng tôi</h3>
+          <ul>
+             <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+             <a href="https://www.google.com/?hl=vi"><i class="fa fa-google"></i></a>
+             <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+             <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+             <a href="https://github.com/"><i class="fa fa-github"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <li><a href="">Website :freshfruitshop.com.vn</a></li>
+  </div>
+</footer>
+  </div>
+</body>
+</html>
